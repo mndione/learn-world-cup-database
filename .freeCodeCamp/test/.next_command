@@ -223,3 +223,5 @@ clear
 ./insert_data.sh
 clear
 ./queries.sh
+clear
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
